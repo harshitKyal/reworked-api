@@ -240,7 +240,6 @@ curl --location --request POST 'https://api.example.com/user-details' \
 --data-raw ''
 ```
 
-
 ---
 
 ## API Flowchart
