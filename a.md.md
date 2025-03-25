@@ -69,12 +69,12 @@ Status Code: `200`
     "mail_city",
     "mail_state",
     "mail_zip_code",
-    "lot_area_sqft",  // Applicable for LAND
-    "apn",  // Applicable for LAND
+    "lot_area_sqft",    
+    "apn",             
     "property_zip_code"
 ]
 ```
-
+- lot_area_sqft and apn are applicable for **LAND**
 ### Response
 Status Code: `200`
 ```json
