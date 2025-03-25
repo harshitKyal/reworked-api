@@ -98,7 +98,7 @@ Status Code: 500
         "error_detail": "Error 103: Requisite columns required to generate a Betty Score is not present.",
         "status": "ERROR"
     }
-};
+}
 ```
 Status Code: 500
 ```json
@@ -108,7 +108,7 @@ Status Code: 500
         "error_detail": "Error 101: Please sign up for a plan at reworked.ai before proceeding.",
         "status": "ERROR"
     }
-};
+}
 ```
 Status Code: 500
 ```json
@@ -118,7 +118,7 @@ Status Code: 500
         "error_detail": "Error 102: Payment method failed, please update payment method at reworked.ai before proceeding.",
         "status": "ERROR"
     }
-};
+}
 ```
 
 ---
@@ -155,7 +155,7 @@ Status Code: 200
         "processed_file_url": "Processed file URL",
         "status": "PROCESSING"
     }
-};
+}
 ```
 
 ### Error Cases
@@ -167,7 +167,7 @@ Status Code: 500
         "error_detail": "Error 104: File url is not accessible, please try again with correct url.",
         "status": "ERROR"
     }
-};
+}
 ```
 Status Code: 200
 ```json
@@ -177,7 +177,7 @@ Status Code: 200
         "error_detail": "Error 105: File is under review",
         "status": "UnderReview"
     }
-};
+}
 ```
 
 ---
@@ -211,23 +211,23 @@ Status Code: 200
 #### Invalid Email ID
 Status Code: `400`
 ```json
-return response.status(400).send({
+{
     "msg": "Invalid Email ID",
     "data": {}
-});
+}
 ```
 
 #### Wrong Password
 Status Code: `403`
 ```json
-return response.status(403).send({
+{
     "msg": "Password is not correct",
     "data": {
         "error_detail": {
             "message": "Request failed with status code 403"
         }
     }
-});
+}
 ```
 
 ---
