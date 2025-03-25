@@ -21,7 +21,7 @@
 - `email` is the ID from which you created a Reworked account.
 
 ### Response
-Status Code: 200
+Status Code: `200`
 ```json
 {
     "msg": "Token generated successfully",
@@ -76,7 +76,7 @@ Status Code: 200
 ```
 
 ### Response
-Status Code: 200
+Status Code: `200`
 ```json
 {
     "msg": "File processing started",
@@ -90,7 +90,7 @@ Status Code: 200
 - The token will be valid for 24 hours.
 
 ### Error Cases
-Status Code: 500
+Status Code: `500`
 ```json
 {
     "msg": "Error 103: Requisite columns required to generate a Betty Score is not present.",
@@ -100,7 +100,7 @@ Status Code: 500
     }
 }
 ```
-Status Code: 500
+Status Code: `500`
 ```json
 {
     "msg": "Error 101: Please sign up for a plan at reworked.ai before proceeding.",
@@ -110,7 +110,7 @@ Status Code: 500
     }
 }
 ```
-Status Code: 500
+Status Code: `500`
 ```json
 {
     "msg": "Error 102: Payment method failed, please update payment method at reworked.ai before proceeding.",
@@ -147,7 +147,7 @@ Status Code: 500
 - `file_upload_identifier` is obtained from the process-leads response.
 
 ### Response
-Status Code: 200
+Status Code: `200`
 ```json
 {
     "msg": "File Processed Successfully",
@@ -159,7 +159,7 @@ Status Code: 200
 ```
 
 ### Error Cases
-Status Code: 500
+Status Code: `500`
 ```json
 {
     "msg": "Error 104: File url is not accessible, please try again with correct url.",
@@ -169,7 +169,7 @@ Status Code: 500
     }
 }
 ```
-Status Code: 200
+Status Code: `200`
 ```json
 {
     "msg": "Error 105: File is under review",
